@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorEmpatMatrix" prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EmpatController">
+    <children>
+        <Label alignment="CENTER" layoutX="195.0" layoutY="20.0" prefHeight="36.0" prefWidth="310.0" text="Matriks Strassen - Group 6">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Label>
+        <Label layoutX="58.0" layoutY="99.0" text="Matrix 1.A" />
+        <TextField fx:id="satuA" layoutX="124.0" layoutY="95.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="99.0" text="Matrix 1.B" />
+        <TextField fx:id="satuB" layoutX="275.0" layoutY="95.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="99.0" text="Matrix 1.C" />
+        <TextField fx:id="satuC" layoutX="434.0" layoutY="95.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="99.0" text="Matrix 1.D" />
+        <TextField fx:id="satuD" layoutX="586.0" layoutY="95.0" prefWidth="40.0" />
+        <Label layoutX="58.0" layoutY="140.0" text="Matrix 1.E" />
+        <TextField fx:id="satuE" layoutX="124.0" layoutY="136.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="140.0" text="Matrix 1.F" />
+        <TextField fx:id="satuF" layoutX="275.0" layoutY="136.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="140.0" text="Matrix 1.G" />
+        <TextField fx:id="satuG" layoutX="434.0" layoutY="136.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="140.0" text="Matrix 1.H" />
+        <TextField fx:id="satuH" layoutX="586.0" layoutY="136.0" prefWidth="40.0" />
+        <Label layoutX="58.0" layoutY="182.0" text="Matrix 1.I" />
+        <TextField fx:id="satuI" layoutX="124.0" layoutY="178.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="182.0" text="Matrix 1.J" />
+        <TextField fx:id="satuJ" layoutX="275.0" layoutY="178.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="182.0" text="Matrix 1.K" />
+        <TextField fx:id="satuK" layoutX="434.0" layoutY="178.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="182.0" text="Matrix 1.L" />
+        <TextField fx:id="satuL" layoutX="586.0" layoutY="178.0" prefWidth="40.0" />
+        <Label layoutX="58.0" layoutY="221.0" text="Matrix 1.M" />
+        <TextField fx:id="satuM" layoutX="124.0" layoutY="217.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="221.0" text="Matrix 1.N" />
+        <TextField fx:id="satuN" layoutX="275.0" layoutY="217.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="221.0" text="Matrix 1.O" />
+        <TextField fx:id="satuO" layoutX="434.0" layoutY="217.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="221.0" text="Matrix 1.P" />
+        <TextField fx:id="satuP" layoutX="586.0" layoutY="217.0" prefWidth="40.0" />
+        <Line endX="358.0" layoutX="296.0" layoutY="280.0" startX="-266.0" />
+        <Label layoutX="58.0" layoutY="316.0" text="Matrix 2.A" />
+        <TextField fx:id="duaA" layoutX="124.0" layoutY="312.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="316.0" text="Matrix 2.B" />
+        <TextField fx:id="duaB" layoutX="275.0" layoutY="312.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="316.0" text="Matrix 2.C" />
+        <TextField fx:id="duaC" layoutX="434.0" layoutY="312.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="316.0" text="Matrix 2.D" />
+        <TextField fx:id="duaD" layoutX="586.0" layoutY="312.0" prefWidth="40.0" />
+        <Label layoutX="58.0" layoutY="357.0" text="Matrix 2.E" />
+        <TextField fx:id="duaE" layoutX="124.0" layoutY="353.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="357.0" text="Matrix 2.F" />
+        <TextField fx:id="duaF" layoutX="275.0" layoutY="353.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="357.0" text="Matrix 2.G" />
+        <TextField fx:id="duaG" layoutX="434.0" layoutY="353.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="357.0" text="Matrix 2.H" />
+        <TextField fx:id="duaH" layoutX="586.0" layoutY="353.0" prefWidth="40.0" />
+        <Label layoutX="58.0" layoutY="399.0" text="Matrix 2.I" />
+        <TextField fx:id="duaI" layoutX="124.0" layoutY="395.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="399.0" text="Matrix 2.J" />
+        <TextField fx:id="duaJ" layoutX="275.0" layoutY="395.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="399.0" text="Matrix 2.K" />
+        <TextField fx:id="duaK" layoutX="434.0" layoutY="395.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="399.0" text="Matrix 2.L" />
+        <TextField fx:id="duaL" layoutX="586.0" layoutY="395.0" prefWidth="40.0" />
+        <Label layoutX="58.0" layoutY="438.0" text="Matrix 2.M" />
+        <TextField fx:id="duaM" layoutX="124.0" layoutY="434.0" prefWidth="40.0" />
+        <Label layoutX="206.0" layoutY="438.0" text="Matrix 2.N" />
+        <TextField fx:id="duaN" layoutX="275.0" layoutY="434.0" prefWidth="40.0" />
+        <Label layoutX="368.0" layoutY="438.0" text="Matrix 2.O" />
+        <TextField fx:id="duaO" layoutX="434.0" layoutY="434.0" prefWidth="40.0" />
+        <TextField fx:id="duaP" layoutX="586.0" layoutY="434.0" prefWidth="40.0" />
+        <Label layoutX="517.0" layoutY="438.0" text="Matrix 2.P" />
+        <Label alignment="CENTER" layoutX="551.0" layoutY="569.0" text="1872024 - Josrel Chandra" />
+        <Label alignment="CENTER" layoutX="14.0" layoutY="569.0" text="1872003 - Edward Michael" />
+        <Label alignment="CENTER" layoutX="139.0" layoutY="544.0" text="1872009 - Dennis Leonardo" />
+        <Label alignment="CENTER" layoutX="281.0" layoutY="569.0" text="1872012 - Natanael Halim" />
+        <Label alignment="CENTER" layoutX="421.0" layoutY="544.0" text="1872015 - Tobias Renal" />
+        <Button fx:id="submitButton" layoutX="280.0" layoutY="491.0" mnemonicParsing="false" onAction="#submitAction" prefHeight="36.0" prefWidth="141.0" text="Submit" />
+    </children>
+</AnchorPane>
